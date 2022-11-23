@@ -15,7 +15,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <style>
-        body{}
+
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
 
         header {
             display: inline-block;
@@ -25,13 +28,37 @@
         }
 
         header>img {
-            width: 100px;
+            height: 40px;
             float: left;
         }
 
-        nav {
+        header>nav {
+            font-family: Arial, Helvetica, sans-serif;
             float: right;
+            margin-top: 5.2px;
         }
+
+        nav>a {
+            display: inline-block;
+            text-decoration: none;
+            color: #41436D;
+            font-size: 16px;
+            line-height: 1em;
+            border: solid 0.125em transparent;
+            border-radius: 0.3em;
+            padding: 0.3em 0.75em;
+            
+        }
+
+        nav a:hover {
+            border: #41436D solid 2px;
+            
+        }
+
+        nav>a:first-child {
+            margin-left: 0;
+        }
+
 
         main {
             display: inline-block;
@@ -55,7 +82,11 @@
     <header>
         <img src="./img/logo.png" alt="logo">
         <nav>
-            LINKS
+            <a style="border: #41436D solid 2px; font-weight:700" href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
 

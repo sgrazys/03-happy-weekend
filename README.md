@@ -19,6 +19,7 @@ Design: [HAPPY WEEKEND](./img/design.jpeg)
 -   [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - Favicon
 - Fixed-Width Layout
+- CSS Selectors
 
 ## 🧰 Getting Started
 
